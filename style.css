@@ -4,7 +4,7 @@
 }
 
 :root {
-    letter-spacing: 140%;
+    letter-spacing: 130%;
     line-height: 150%;
     font-size: 14pt;
 }
@@ -16,8 +16,9 @@
 }
 
 body {
-    width: 700px;
+    width: 969px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -53,16 +54,14 @@ img {
 
 .second-head {
     text-align: center;
-    font-family: oswald;
-    padding: 3rem;
-    color: firebrick;
+    font-family: sans-serif;
+    padding: 2rem;
+    color: rgb(32, 139, 80);
 }
 
 footer {
-    text-align: right;
+    text-align: center;
     font-family: sans-serif, serif;
-    font-size: 0.5rem;
-    margin: 1rem;
-    padding: 1rem;
-
+    font-size: xx-small;
+    padding: 2rem;
 }
