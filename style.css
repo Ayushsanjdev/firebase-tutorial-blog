@@ -49,14 +49,14 @@ img {
 
 #article-second {
     grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .second-head {
     text-align: center;
     font-family: sans-serif;
     padding: 2rem;
-    color: rgb(32, 139, 80);
+    color: rgb(194, 19, 19);
 }
 
 footer {
@@ -70,17 +70,11 @@ footer {
     body {
         width: fit-content;
     }
-
-    header {
-        width: fit-content;
-    }
-
     .main-head,
     .second-head {
         text-align: left;
-        padding: 1rem 0rem;
+        padding: 2rem 0rem;
         width: fit-content;
-
     }
 
     #article-first {
