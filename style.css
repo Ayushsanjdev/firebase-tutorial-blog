@@ -70,21 +70,28 @@ footer {
     body {
         width: fit-content;
     }
+
     header {
         width: fit-content;
     }
-    .main-head, .second-head {
+
+    .main-head,
+    .second-head {
         text-align: left;
         padding: 1rem 0rem;
-        width:fit-content;
+        width: fit-content;
 
     }
+
     #article-first {
         grid-template-columns: repeat(1, 1fr);
     }
-    #article-first, #article-second {
+
+    #article-first,
+    #article-second {
         width: 80%;
     }
+
     footer {
         text-align: left;
         width: fit-content;
