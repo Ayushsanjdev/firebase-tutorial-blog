@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    letter-spacing: 140%;
+    line-height: 150%;
+    font-size: 14pt;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.main-head {
+    font-family: Oswald, serif;
+    text-align: center;
+    padding: 3rem;
+    color: crimson;
+}
+
+#article-first,
+#article-second {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    font-family: Zilla Slab, serif;
+}
+
+#article-second {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.second-head {
+    text-align: center;
+    font-family: oswald;
+    padding: 3rem;
+    color: firebrick;
+}
+
+footer {
+    text-align: right;
+    font-family: sans-serif, serif;
+    font-size: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
