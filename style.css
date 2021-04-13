@@ -16,7 +16,7 @@
 }
 
 body {
-    width: 969px;
+    max-width: 969px;
     margin: 0 auto;
     scroll-behavior: smooth;
 }
@@ -67,9 +67,6 @@ footer {
 }
 
 @media only screen and (max-width: 969px) {
-    body {
-        width: fit-content;
-    }
     .main-head,
     .second-head {
         text-align: left;
