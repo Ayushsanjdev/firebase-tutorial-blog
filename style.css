@@ -80,7 +80,7 @@ footer {
 
     #article-first,
     #article-second {
-        width: 80%;
+        max-width: 100%;
     }
 
     footer {
